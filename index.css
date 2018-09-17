@@ -1,0 +1,6 @@
+.font-body {
+    page-break-after: always;
+    font-family: "Microsoft Yahei";
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
