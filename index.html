@@ -43,7 +43,12 @@
 </body>
 <script>
     window.onload = function () {
-        window.print();
+        try {
+            window.print();
+
+        } catch (e) {
+            alert('手机打开不支持打印，也不要用IE浏览器')
+        }
     }
 </script>
 
